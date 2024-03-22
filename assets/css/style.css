@@ -44,7 +44,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -93,6 +93,7 @@ footer {
     background-color: orange;
 }
 
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -106,7 +107,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -115,6 +116,7 @@ footer {
     }
 }
 
+/* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
