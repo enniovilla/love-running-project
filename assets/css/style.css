@@ -41,7 +41,7 @@ h1 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    overflow: hidden;
+    list-style-type: none;
 }
 
 #menu > li {
@@ -77,10 +77,16 @@ nav {
     font-size: 2rem;
 }
 
+#logo {
+    font-size: 280%;
+    line-height: 75px;
+    margin: 0 0.5rem;
+}
+
 main {
     background-color: lightblue;
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 79px;
 }
 
 footer {
@@ -106,5 +112,11 @@ footer {
 
     .nav-toggle-label {
         display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
     }
 }
