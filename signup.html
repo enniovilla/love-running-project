@@ -30,18 +30,46 @@
             </ul>
         </nav>
     </header>
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form method="post" action="https://formdump.codeinstitute.net" id="signup-form">
+                <h2>Let's get you signed up! <i class="fa-solid fa-heart-pulse"></i></h2>
+                <label for="first-name">First Name</label>
+                <input type="text" name="first-name" id="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="email-address" id="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <label for="road">Road</label>
+                    <input type="radio" name="running-preference" id="road" value="road" required checked>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running-preference" id="trail" value="trail" required>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running-preference" id="both" value="both" required>
+                </div>
+                <input type="submit" class="join-button" value="Let's Run">
+            </form>
+        </section>
+    </main>
 
     <footer>
         <ul id="social-networks">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
             <li><a href="https://twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twiiter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    aria-label="Visit our Twiiter page (opens in a new tab)"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
             <li><a href="https://youtube.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a></li>
+                    aria-label="Visit our YouTube page (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
             <li><a href="https://instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
         </ul>
     </footer>
     <!-- Font Awesome Kit -->
